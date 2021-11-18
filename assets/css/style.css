@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Saira", sans-serif;
+  color: #222222;
+}
+
+hr {
+  border-top: 2px solid #d3d3d3;
+  background-color: transparent;
+  width: 95%;
+  margin: .3rem auto 1rem;
+  opacity: 1;
+}
+
+nav img {
+  height: 50%;
+  width: 50%;
+}
+
+article {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+article .card:hover {
+  background-color: #d3d3d3;
+}
+
+footer {
+  background-color: #d3d3d3 !important;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  margin-top: 5rem;
+}
+
+footer hr {
+  border-top: 2px solid #22b14c;
+  margin-bottom: 0.5rem;
+  width: 100% !important;
+  opacity: 0.5;
+}
+
+footer h4 {
+  font-size: 1.4em;
+}
+
+footer a {
+  font-size: 1.4em;
+  color: #222222;
+  text-decoration: none;
+  margin-bottom: 1rem !important;
+}
+
+footer a:hover {
+  color: #22b14c;
+}
+
+footer h5 {
+  font-size: 1.2em;
+}
+
+footer .social {
+  font-size: 3.5em;
+  padding: 1rem;
+}
+
+#projects, #aboutMe {
+  background-color: #d3d3d3;
+}
+
+#projects hr, #aboutMe hr {
+  border-top: 2px solid #22b14c;
+  opacity: 0.7;
+}
+
+#skills, #contacts {
+  border: 1px solid #22b14c;
+}
+
+#skills .card img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
+  margin: 2rem auto 0;
+}
+
+.padding {
+  padding-top: 10rem;
+}
+
+.margin {
+  margin-top: 2rem !important;
+}
+
+.navbar {
+  padding: .8rem;
+  background-color: #d3d3d3 !important;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.4em !important;
+  color: #222222 !important;
+}
+
+.nav-link:hover {
+  color: #22b14c !important;
+}
+
+.img-fluid {
+  width: 75%;
+  margin-bottom: 0.7rem;
+}
+
+.welcome {
+  width: 75% !important;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #22b14c;
+}
+
+.link:hover {
+  color: #d3d3d3;
+}
+
+.display-6 {
+  color: #22b14c;
+}
+
+.card {
+  border-color: #22b14c !important;
+}
+
+.card i {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.card .bg-success {
+  background-color: #22b14c !important;
+}
+
+.row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.fa-html5 {
+  color: #e34c26;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.fa-sass {
+  color: #cc6699;
+}
+
+.fa-bolt {
+  color: #ffff00;
+}
+
+.fa-compass {
+  color: #808080;
+}
+
+.fa-linkedin {
+  color: #2867b2;
+}
+
+.fa-linkedin:hover {
+  color: #22b14c;
+}
+
+.fa-github-square {
+  color: #171515;
+}
+
+.fa-github-square:hover {
+  color: #22b14c;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-instagram:hover {
+  color: #22b14c;
+}
+
+.dashed {
+  border-top-style: dashed;
+}
+
+@media (max-width: 992px) {
+  .display-4 {
+    font-size: 270%;
+  }
+  .display-6 {
+    font-size: 170%;
+  }
+  footer h4, footer a {
+    font-size: 1.2em;
+  }
+  footer h5 {
+    font-size: 1em;
+  }
+  footer .social {
+    font-size: 3em;
+    padding: .8rem;
+  }
+  .img-fluid {
+    width: 170%;
+  }
+  .nav-link {
+    font-size: 1.2em !important;
+  }
+  nav img {
+    height: 45%;
+    width: 45%;
+  }
+  .card-title {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 766px) {
+  .display-4 {
+    font-size: 230%;
+  }
+  .display-6 {
+    font-size: 130%;
+  }
+  footer .social {
+    font-size: 2.8em;
+    padding: .5rem;
+  }
+  nav img {
+    height: 40%;
+    width: 40%;
+  }
+  .space {
+    margin-bottom: 1rem;
+  }
+  .img-fluid {
+    width: 70%;
+  }
+  .card-title {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1.45em;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 190%;
+  }
+  nav img {
+    height: 30%;
+    width: 30%;
+  }
+  .space {
+    margin-bottom: 1rem;
+  }
+  .img-fluid {
+    width: 85%;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #d3d3d3;
+  border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22b14c;
+  border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b5e61d;
+}
