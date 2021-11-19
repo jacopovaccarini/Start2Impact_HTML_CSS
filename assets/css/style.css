@@ -118,6 +118,7 @@ footer .social {
 .img-fluid {
   width: 75%;
   margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 .welcome {
@@ -244,7 +245,7 @@ footer .social {
   }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .display-4 {
     font-size: 230%;
   }
@@ -264,6 +265,9 @@ footer .social {
   }
   .img-fluid {
     width: 70%;
+  }
+  .lead {
+    text-align: center;
   }
   .card-title {
     font-size: 1.2em;
