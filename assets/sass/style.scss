@@ -32,8 +32,8 @@ article {
   padding-top: 10rem;
   padding-bottom: 10rem;
 
-  .card:hover {
-    background-color: $primary;
+  .card {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -174,6 +174,10 @@ footer {
     color: #264de4;
   }
 
+  &-js {
+    color: #f0db4f;
+  }
+
   &-bootstrap {
     color: #563d7c;
   }
@@ -188,6 +192,14 @@ footer {
 
   &-compass {
     color: #808080;
+  }
+
+  &-check-circle {
+    color: #00bb2d;
+  }
+
+  &-lightbulb {
+    color: #ff7514;
   }
 
   &-linkedin {
@@ -286,9 +298,9 @@ footer {
     width: 40%;
   }
 
-  .space {
+  /*.space {
     margin-bottom: 1rem;
-  }
+  }*/
 
   .img-fluid {
     width: 70%;
@@ -317,9 +329,9 @@ footer {
     width: 30%;
   }
 
-  .space {
+  /*.space {
     margin-bottom: 1rem;
-  }
+  }*/
 
   .img-fluid {
     width: 85%

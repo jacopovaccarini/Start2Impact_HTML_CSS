@@ -27,8 +27,8 @@ article {
   padding-bottom: 10rem;
 }
 
-article .card:hover {
-  background-color: #d3d3d3;
+article .card {
+  margin-bottom: 1.5rem;
 }
 
 footer {
@@ -167,6 +167,10 @@ footer .social {
   color: #264de4;
 }
 
+.fa-js {
+  color: #f0db4f;
+}
+
 .fa-bootstrap {
   color: #563d7c;
 }
@@ -181,6 +185,14 @@ footer .social {
 
 .fa-compass {
   color: #808080;
+}
+
+.fa-check-circle {
+  color: #00bb2d;
+}
+
+.fa-lightbulb {
+  color: #ff7514;
 }
 
 .fa-linkedin {
@@ -261,9 +273,9 @@ footer .social {
     height: 40%;
     width: 40%;
   }
-  .space {
+  /*.space {
     margin-bottom: 1rem;
-  }
+  }*/
   .img-fluid {
     width: 70%;
   }
@@ -286,9 +298,9 @@ footer .social {
     height: 30%;
     width: 30%;
   }
-  .space {
+  /*.space {
     margin-bottom: 1rem;
-  }
+  }*/
   .img-fluid {
     width: 85%;
   }
