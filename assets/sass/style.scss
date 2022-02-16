@@ -65,8 +65,11 @@ footer {
     }
   }
 
-  h5 {
+  .copy {
     font-size: 1.2em;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
   }
 
   .social {
@@ -145,6 +148,34 @@ footer {
 
 .display-6 {
   color: $secondary;
+}
+
+.carousel {
+  border: 1px solid $secondary;
+  width: 75% !important;
+  margin: 0 auto;
+
+  img {
+    opacity: 0.7;
+  }
+
+  .carousel-caption {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1rem;
+  }
+
+  .carousel-button {
+    text-decoration: none;
+    color: $text;
+    border-radius: 5px;
+    background-color: $secondary;
+    padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+
+    &:hover {
+      background-color: $third;
+      cursor: pointer;
+    }
+  }
 }
 
 .card {

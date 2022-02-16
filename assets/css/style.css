@@ -60,8 +60,11 @@ footer a:hover {
   color: #22b14c;
 }
 
-footer h5 {
+footer .copy {
   font-size: 1.2em;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 footer .social {
@@ -139,6 +142,34 @@ footer .social {
 
 .display-6 {
   color: #22b14c;
+}
+
+.carousel {
+  border: 1px solid #22b14c;
+  width: 75% !important;
+  margin: 0 auto;
+}
+
+.carousel img {
+  opacity: 0.7;
+}
+
+.carousel .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+}
+
+.carousel .carousel-button {
+  text-decoration: none;
+  color: #222222;
+  border-radius: 5px;
+  background-color: #22b14c;
+  padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+}
+
+.carousel .carousel-button:hover {
+  background-color: #b5e61d;
+  cursor: pointer;
 }
 
 .card {
