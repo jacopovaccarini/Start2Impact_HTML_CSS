@@ -214,7 +214,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 space">
+          <div class="col-md-6 space">
             <div class="card text-center border-success">
               <img src="assets/img/webpack.svg"></img>
               <div class="card-body">
@@ -225,13 +225,24 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 space">
             <div class="card text-center border-success">
               <img src="assets/img/axios.svg"></img>
               <div class="card-body">
                 <h4 class="card-title">Axios</h4>
                 <div class="progress">
                   <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card text-center border-success">
+              <i class="fab fa-vuejs"></i>
+              <div class="card-body">
+                <h4 class="card-title">Vue.js</h4>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                 </div>
               </div>
             </div>
@@ -348,7 +359,7 @@
           <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
         </div>
         <div class="mb-3">
-          <input type="submit" id="button" class="btn btn-primary mb-3" value="Invia">
+          <input type="submit" id="button" class="btn btn-outline-success" value="Invia">
         </div>
       </form>
     </article>
@@ -357,12 +368,6 @@
     <footer>
       <div class="container-fluid">
         <div class="row text-center">
-          <!--<div class="col-md-6">
-            <hr>
-            <h4>e-mail</h4>
-            <hr>
-            <p><a href="mailto:jacopovaccarini@gmail.com">jacopovaccarini@gmail.com</a></p>
-          </div>-->
           <div class="col-md-12">
             <hr>
             <h4>Social</h4>
@@ -379,11 +384,12 @@
       </div>
     </footer>
 
-  <script src="assets/js/scripts_mail.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    emailjs.init('user_G3hQG2yOrn7L2s4b7hsOH')
-  </script>
+  <!--- SCRIPT FORM DI CONTATTO -->
+    <script src="assets/js/scripts_mail.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('user_G3hQG2yOrn7L2s4b7hsOH')
+    </script>
 
   </body>
 </html>
