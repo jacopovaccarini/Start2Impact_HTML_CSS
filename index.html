@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootlint@1.1.0/dist/browser/bootlint.min.js" integrity="sha384-D0zT3yu3RBG+Jc54wtMtxDEyZGWfa30nEkS/o2AyBZUOmIpezYYjBLZjUetRV3iG" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/8192e025e9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
 
@@ -333,41 +334,21 @@
           <hr>
         </div>
       </div>
-      <form class="row container-fluid needs-validation" novalidate>
+      <form id="form" class="row container-fluid needs-validation" novalidate>
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="nome@esempio.com" required>
-          <div class="invalid-feedback">
-            Per favore scrivi la tua email.
-          </div>
+          <input type="email" class="form-control" name="email" id="email" placeholder="nome@esempio.com" required>
         </div>
         <div class="mb-3">
           <label for="name" class="form-label">Nome</label>
-          <input type="text" class="form-control" id="name" placeholder="Mario Rossi" required>
-          <div class="invalid-feedback">
-            Per favore scrivi il tuo nome.
-          </div>
+          <input type="text" class="form-control" name="name" id="name" placeholder="Mario Rossi" required>
         </div>
         <div class="mb-3">
           <label for="message" class="form-label">Messaggio</label>
-          <textarea class="form-control" id="message" rows="3" required></textarea>
-          <div class="invalid-feedback">
-            Il testo del messaggio è vuoto.
-          </div>
+          <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
         </div>
         <div class="mb-3">
-          <input class="form-check-input" type="checkbox" value="" id="checkPrivacy">
-          <label class="form-check-label" for="checkPrivacy">Ho letto e accetto la privacy policy</label>
-        </div>
-        <div class="mb-3">
-          <input class="form-check-input" type="checkbox" role="switch" id="checkSendMe">
-          <label class="form-check-label" for="checkSendMe">Invia anche a me</label>
-        </div>
-        <div class="mb-3">
-          <button type="submit" id="formSubmit" class="btn btn-primary mb-3">Invia</button>
-        </div>
-        <div id="textSubmit" class="h3 text-center" hidden>
-          Messaggio inviato!
+          <input type="submit" id="button" class="btn btn-primary mb-3" value="Invia">
         </div>
       </form>
     </article>
@@ -397,6 +378,12 @@
         </div>
       </div>
     </footer>
+
+  <script src="assets/js/scripts_mail.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    emailjs.init('user_G3hQG2yOrn7L2s4b7hsOH')
+  </script>
 
   </body>
 </html>
