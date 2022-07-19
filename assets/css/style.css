@@ -172,6 +172,39 @@ footer .social {
   cursor: pointer;
 }
 
+#cardSmallScreen {
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#cardSmallScreen img {
+  opacity: 0.7;
+}
+
+#cardSmallScreen .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  color: #222222;
+}
+
+#cardSmallScreen .carousel-caption h5 {
+  margin-bottom: 1.2rem;
+}
+
+#cardSmallScreen .carousel-button {
+  text-decoration: none;
+  color: #222222;
+  border-radius: 5px;
+  background-color: #22b14c;
+  padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+}
+
+#cardSmallScreen .carousel-button:hover {
+  background-color: #b5e61d;
+  cursor: pointer;
+}
+
 .card {
   border-color: #22b14c !important;
 }
@@ -341,6 +374,49 @@ footer .social {
   }
   h2 {
     font-size: 1.4em;
+  }
+  #cardSmallScreen .carousel-caption {
+    border-radius: 0.5rem;
+  }
+  #cardSmallScreen .carousel-caption h5 {
+    margin-bottom: 0.9rem;
+    font-size: 95%;
+  }
+  #cardSmallScreen .carousel-button {
+    border-radius: 3px;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 447px) {
+  #cardSmallScreen .carousel-caption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.3rem;
+  }
+  #cardSmallScreen .carousel-caption h5 {
+    margin-bottom: 0.6rem;
+    font-size: 90%;
+  }
+  #cardSmallScreen .carousel-button {
+    border-radius: 1px;
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  #cardSmallScreen .carousel-caption {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0.2rem;
+  }
+  #cardSmallScreen .carousel-caption h5 {
+    margin-bottom: 0.4rem;
+    font-size: 85%;
+  }
+  #cardSmallScreen .carousel-button {
+    border-radius: 0.7px;
+    font-size: 65%;
   }
 }
 

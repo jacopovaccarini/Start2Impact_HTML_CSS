@@ -89,16 +89,18 @@
             <h1 class="display-4">Progetti</h1>
           </div>
           <hr>
-          <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
+          <!--CAROSELLO-->
+          <div id="carouselExampleIndicators" class="carousel carousel-dark slide rounded" data-bs-ride="carousel" data-bs-interval="10000" hidden>
             <!--Indicatori-->
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
 
+            <!--Slide-->
+            <div class="carousel-inner">
               <!--Prima slide-->
               <div class="carousel-item active">
                 <img src="assets/img/Progetto_JavaScript_Base.png" class="d-block w-100" alt="progetto javascript base">
@@ -136,7 +138,36 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Successivo</span>
               </a>
+            </div>
+          </div>
 
+          <!--CARDS-->
+          <div id="cardSmallScreen" class="row margin" hidden>
+            <div class="col-md-12 space">
+              <div class="card text-center border-success">
+                <img src="assets/img/Progetto_JavaScript_Base.png" class="d-block w-100" alt="progetto javascript base">
+                <div class="carousel-caption d-md-block">
+                  <h5>Progetto Contatore</h5>
+                  <a href="https://jacopovaccarini.github.io/Start2Impact_JavaScript/" class="carousel-button" button-progetto1>Vai al progetto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 space">
+              <div class="card text-center border-success">
+                <img src="assets/img/Progetto_JavaScript_Avanzato.png" class="d-block w-100" alt="progetto javascript avanzato">
+                <div class="carousel-caption d-md-block">
+                  <h5>Progetto Life Quality</h5>
+                  <a href="https://jacopovaccarini.github.io/Start2Impact_JavaScript_Advanced/" class="carousel-button" button-progetto1>Vai al progetto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="card text-center border-success">
+                <img src="assets/img/Working_Progress.png" class="d-block w-100" alt="working progress">
+                <div class="carousel-caption d-md-block">
+                  <h5>Altri progetti in arrivo presto!</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
