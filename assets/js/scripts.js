@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function update_carousel_words(){
     document.getElementById("carousel").innerHTML = words[counter];
     counter++;
-    if (counter >= 13) {
+    if (counter >= 14) {
       counter = 0;
     }
   }
