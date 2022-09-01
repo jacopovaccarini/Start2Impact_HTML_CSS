@@ -72,6 +72,10 @@ footer .social {
   padding: 1rem;
 }
 
+footer .privacy, footer .cookie {
+  padding: 0.5rem;
+}
+
 #projects, #aboutMe {
   background-color: #d3d3d3;
 }
