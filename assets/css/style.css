@@ -90,7 +90,7 @@ footer .privacy, footer .cookie {
 }
 
 #skills .card img {
-  width: 8rem;
+  width: 4rem;
   height: 4rem;
   margin-top: 2rem;
   margin: 2rem auto 0;
@@ -253,6 +253,10 @@ footer .privacy, footer .cookie {
 
 .fa-php {
   color: #aeb2d5;
+}
+
+.fa-database {
+  color: #f29111;
 }
 
 .fa-bolt {

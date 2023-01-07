@@ -96,7 +96,7 @@ footer {
 }
 
 #skills .card img {
-  width: 8rem;
+  width: 4rem;
   height: 4rem;
   margin-top: 2rem;
   margin: 2rem auto 0;
@@ -260,6 +260,10 @@ footer {
 
   &-php {
     color: #aeb2d5;
+  }
+
+  &-database {
+    color: #f29111;
   }
 
   &-bolt {
