@@ -96,7 +96,7 @@ footer {
 }
 
 #skills .card img {
-  width: 4rem;
+  width: 8rem;
   height: 4rem;
   margin-top: 2rem;
   margin: 2rem auto 0;
@@ -256,6 +256,10 @@ footer {
 
   &-vuejs {
     color: #42b883;
+  }
+
+  &-php {
+    color: #aeb2d5;
   }
 
   &-bolt {
