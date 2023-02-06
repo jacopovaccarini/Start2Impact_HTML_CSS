@@ -355,6 +355,10 @@ footer {
   h2 {
     font-size: 1.5em;
   }
+
+  .carousel-button {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 767px) {
@@ -377,10 +381,6 @@ footer {
     height: 40%;
     width: 40%;
   }
-
-  /*.space {
-    margin-bottom: 1rem;
-  }*/
 
   .img-fluid {
     width: 70%;
