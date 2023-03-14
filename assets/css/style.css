@@ -259,6 +259,14 @@ footer .privacy, footer .cookie {
   color: #f29111;
 }
 
+.fa-laravel {
+  color: #F05340;
+}
+
+.fa-git-alt {
+  color: #F1502F;
+}
+
 .fa-bolt {
   color: #ffff00;
 }
